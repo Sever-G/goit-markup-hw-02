@@ -11,95 +11,83 @@ body {
 	text-decoration: none;
 }
 
-:root {
-	--acent-color: #2196f3;
-	--brand-white-color: #ffffff;
-	--brand-black-color: #212121;
-	--brand-grey-color: #757575;
-}
-
 /*-----------------HOVER----------------*/
 
 .header-link:hover {
-	color: var(--acent-color);
+	color: #2196f3;
 }
 
 .header-email:hover {
-	color: var(--acent-color);
+	color: #2196f3;
 }
 
 .header-tel:hover {
-	color: var(--acent-color);
+	color: #2196f3;
 }
 
 .filter-btn:hover {
-	color: var(--#ffffff);
+	color: #ffffff;
 	background-color: #2196f3;
 }
 
 .footer-address-item-map:hover {
-	color: var(--acent-color);
+	color: #2196f3;
 }
 
 .footer-address-item-link:hover {
-	color: var(--acent-color);
+	color: #2196f3;
 }
-
-button {
-	color: var(--acent-color);
-}
-
 /*-----------------HOVER----------------*/
 
 .header-link:focus {
-	color: var(--acent-color);
+	color: #2196f3;
 }
 
 .header-email:focus {
-	color: var(--acent-color);
+	color: #2196f3;
 }
 
 .header-tel:focus {
-	color: var(--acent-color);
+	color: #2196f3;
 }
 
 .filter-btn:focus {
-	color: var(--#ffffff);
+	color: #ffffff;
 	background-color: #2196f3;
 }
 
 .footer-address-item-map:focus {
-	color: var(--acent-color);
+	color: #2196f3;
 }
 
 .footer-address-item-link:hfocus {
-	color: var(--acent-color);
+	color: #2196f3;
 }
 
 /*-----------------LOGO----------------*/
 
 .first-logo {
-	font-family: "Raleway", "sans-seif";
+	font-family: "Raleway", "sans-serif";
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
-	color: color: var(--acent-color);
+	color: #2196f3;
 }
 
 .second-logo {
-	font-family: "Raleway", "sans-seif";
+	font-family: "Raleway", "sans-serif";
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
-	color: var(--#ffffff);
+	color: #ffffff;
 }
 
 .third-logo {
-	font-family: "Raleway", "sans-seif";
+	font-family: "Raleway", "sans-serif";
 	font-style: normal;
 	font-weight: 700;
 	font-size: 26px;
@@ -115,7 +103,7 @@ button {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--#212121);
+	color: #212121;
 }
 
 .header-tel,
@@ -124,19 +112,21 @@ button {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
-	color: var(--#757575);
+	color: #757575;
 }
 
 /*-----------------HERO----------------*/
 
 .hero-title {
+	font-family: "Roboto";
+	font-style: normal;
 	font-weight: 900;
 	font-size: 1.36;
 	line-height: 60px;
 	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
-	color: var(--#ffffff);
+	color: #ffffff;
 }
 
 .hero-btn {
@@ -150,7 +140,7 @@ button {
 	text-align: center;
 	letter-spacing: 0.06em;
 
-	color: var(--#ffffff);
+	color: #ffffff;
 }
 .hero {
 	background-color: #2f303a;
@@ -171,7 +161,7 @@ button {
 	line-height: 1.14;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	color: var(--#212121);
+	color: #212121;
 }
 
 .benefits-item-after-title {
@@ -180,8 +170,9 @@ button {
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 1.71;
+	/* or 171% */
 	letter-spacing: 0.03em;
-	color: var(--#757575);
+	color: #757575;
 }
 
 /*-----------------SPECIALIZATION----------------*/
@@ -194,7 +185,7 @@ button {
 	line-height: 42px;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--#212121);
+	color: #212121;
 }
 
 /*-----------------TEAM----------------*/
@@ -206,7 +197,7 @@ button {
 	line-height: 1.17;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--#212121);
+	color: #212121;
 }
 
 .team-item-title {
@@ -217,7 +208,7 @@ button {
 	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--#212121);
+	color: #212121;
 }
 
 .team-item-after-title {
@@ -228,7 +219,7 @@ button {
 	line-height: 1.19;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--#757575);
+	color: #757575;
 }
 
 /*-----------------FOOTER----------------*/
@@ -244,7 +235,7 @@ button {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-	color: var(--#ffffff);
+	color: #ffffff;
 }
 
 .footer-address-item-link {
@@ -275,7 +266,7 @@ button {
 	line-height: 1.63;
 	text-align: center;
 	letter-spacing: 0.03em;
-	color: var(--#212121);
+	color: #212121;
 }
 
 /*-----------------PORTFOLIO WORKS----------------*/
@@ -286,7 +277,7 @@ button {
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
-	color: var(--#212121);
+	color: #212121;
 }
 
 .works-item-after-title {
@@ -296,5 +287,5 @@ button {
 	font-size: 16px;
 	line-height: 1.88;
 	letter-spacing: 0.03em;
-	color: var(--#757575);
+	color: #757575;
 }
