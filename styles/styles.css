@@ -41,7 +41,7 @@ body {
 }
 
 .filter-btn:hover {
-	color: var(--primary-white-color)
+	color: var(--primary-white-color);
 	background-color: var(--acent-color);
 }
 
